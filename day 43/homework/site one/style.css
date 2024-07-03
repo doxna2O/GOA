@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+body{
+    background-color:  rgb(243, 234, 227) !important;
+}
+.box{
+    width: 750px;
+    height: 540px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 200px;
+}
+.perfume1{
+    font-family: "Montserrat", sans-serif;
+    color: #7a7b83;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+.gab{
+    color: black;
+    font-weight: 700;
+    font-family: "Fraunces" ;
+    letter-spacing: normal;
+}
+.desc{
+    font-family: "Montserrat", sans-serif;
+    color: #7a7b83;
+    font-weight: 500;
+    font-size: 20px;
+}
+.price{
+    color:#3d8168;
+    font-family: "Fraunces" ;
+    font-weight: 900;
+    font-size: 50px;
+}
+.old_price{
+    font-size: 20px;
+    color: #7a7b83;
+    text-decoration: line-through;
+}
+.btn1{
+    background-color: #319d75;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    color:white;
+    gap: 10px;
+}
+.btn1:hover {
+    background-color: transparent;
+    border: 1px solid #319d75;
+    color: #319d75;
+}
+.btn1:hover .svg1{
+    fill: #319d75;
+}
