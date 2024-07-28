@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:  340px ;
+    gap: 20px;
+}
+.flex-container1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:  50% 50% ;
+    gap: 20px 20px;
+}
+.item1{
+    background-color: #1bbc9b; 
+}
+.item2{
+    background-color: #e67f22; 
+}
+.item3{
+    background-color: #3598db; 
+}
+.item4{
+    background-color: #2dcc72; 
+}
+img{
+    width: 100%;
+    height: 100%;
+}

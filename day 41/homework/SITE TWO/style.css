@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d1f20;
+}
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+.box{
+    background-color: #202324;
+    border:2px solid #222426;
+    height: 870px;
+    width: 820px;
+    border-radius: 45px;
+    margin-top: 60px;
+  
+}
+.content{
+    padding: 80px;
+}
+.img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.text{
+    text-transform: uppercase;
+    font-family: 'Martian Mono', monospace;
+    letter-spacing: 0.225rem;
+    font-size: 1.5em;
+    line-height: 1.75;
+    font-weight: 100;
+    color: rgb(223, 143, 99);
+    background-image: linear-gradient(142deg, rgb(84, 34, 146) 0%, rgb(140, 68, 28) 43%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 30px;
+}
+.header{
+    font-family: 'Martian Mono', monospace; 
+    font-size: 4em;
+    color: white;
+    font-family: 200;
+}
+.main-text{
+    color:#979896;
+    font-size: 1.5em;
+    line-height: 2;
+    font-weight: 200;
+    font-family: 'Martian Mono', monospace;
+}
+.anchor{
+    color: white;
+}
+.anchor:hover{
+    color: #b480f6;
+    transform: 0.25s ;
+}
+.btn{
+    width: 217px;
+    height: 72px;
+    background-image: linear-gradient(243deg, rgb(84, 34, 146) 0%, rgb(140, 67, 28) 74%);
+    background-color: rgb(140, 68, 28);
+    border-radius: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    scale: 1.05;
+    transition:  0.25s ease;
+}
+span{
+    font-family: 'Martian Mono', monospace;
+    font-size: 1.7rem;
+    color:white;
+}
+.hr{
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top-color: rgb(53, 57, 59);
+}

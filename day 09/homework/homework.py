@@ -1,0 +1,16 @@
+#1)
+num1 = int(input("Enter your desired number: "))
+print(num1 % 2 == 0 and num1 % 4 == 0)
+
+#2)
+print(10 > 1)
+print(19 < 22)
+print(12 >= 12)
+print(13 >= 11)
+print(31 <= 31)
+print(31 <= 42)
+print(10 == 10)
+print(20 == 20)
+print(12 != 13)
+print(16 != 11)
+
